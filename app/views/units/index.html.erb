@@ -1,0 +1,9 @@
+<% provide(:title, 'Units') %>
+
+<h1>Units</h1>
+
+<ul>
+  <% @units.each do |u| %>
+    <li><%= u.to_s %></li>
+  <% end %>
+</ul>
